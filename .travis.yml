@@ -1,19 +1,18 @@
-.travis.yml
-  language: node_js
+language: node_js
 
-  sudo: false
+sudo: false
 
-  cache: 
-    apt: true
-    directories:
-      - node_modules
-  
-  node_js: 0.8
+cache:
+  apt: true
+  directories:
+    - node_modules
 
-  install: 
-    - npm install -D 
-    - cd ./test/smoke/template
-    - npm install -D 
+node_js: stable
 
-  scripts:
-    - npm test
+install:
+  - npm install -D
+  - cd ./test/smoke/template
+  - npm install -D
+
+scripts:
+  - npm test
