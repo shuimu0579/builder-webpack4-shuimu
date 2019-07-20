@@ -8,7 +8,7 @@
     directories:
       - node_modules
   
-  node_js: stable
+  node_js: 0.8
 
   install: 
     - npm install -D 
