@@ -1,5 +1,5 @@
 {
-  "name": "builder-webpack",
+  "name": "builder-webpack-shuimu",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "eslint": "eslint ./lib --fix"
   },
   "keywords": [],
-  "author": "",
+  "author": "shuimu0579@gmail.com",
   "license": "ISC",
   "devDependencies": {
     "assert": "^2.0.0",
