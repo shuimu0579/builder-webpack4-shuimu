@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "comments1": "istanbul 是检测 测试覆盖率的插件",
     "test": "istanbul cover ./node_modules/.bin/_mocha",
-    "comments2": "下面运行yarn run eslint 的话， 因为加上了 --fix 参数 就能够有效修复，从而减少报错数量",
     "eslint": "eslint ./lib --fix"
   },
   "keywords": [],
